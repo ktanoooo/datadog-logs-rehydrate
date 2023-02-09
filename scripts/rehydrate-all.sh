@@ -1,5 +1,8 @@
 set -eu
 
+## Change this to your bucket name
+BACKET="YOUR-BUCKET-NAME"
+
 read -p "Date (YYYYMMDD): " DATE
 read -p "Hour (00-23): " HOUR
 read -p "aws profile (default): " PROFILE
@@ -8,7 +11,6 @@ if [ -z "$PROFILE" ]; then
   PROFILE="default"
 fi
 
-BACKET="bucket-name-datadog-log"
 URL=$BACKET/dt=$DATE/hour=$HOUR/
 
 mkdir -p ./logs
