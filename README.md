@@ -3,7 +3,7 @@
 
 This script revives compressed files(**.json.gz) uploaded on aws s3 by [Datadog's log archiving feature](https://docs.datadoghq.com/logs/log_configuration/archives/?tab=awss3).
 
-[Datadog's Rehydrating from Archives](https://docs.datadoghq.com/logs/log_configuration/rehydrating/?tab=awss3) is expensive.
+[Datadog's Rehydrating from Archives](https://docs.datadoghq.com/logs/log_configuration/rehydrating/?tab=awss3) is expensive. So, the alternative.
 
 
 ## How to use?
