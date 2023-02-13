@@ -43,7 +43,7 @@ I, [2023-01-01T10:05:51.517462 #1]  INFO -- : ********************
 
 ### output hourly logs to file (./logs/YYYYMMDDhh.log)
 
-```
+```sh
 > scripts/rehydrate-all.sh
 ```
 
